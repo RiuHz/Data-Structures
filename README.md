@@ -51,4 +51,3 @@ This project is licensed under the [MIT](https://choosealicense.com/licenses/mit
 ## Authors
 
 - GitHub: [@RiuHz](https://www.github.com/RiuHz)
-- GitHub: [@eman-giaquinto](https://github.com/eman-giaquinto)
