@@ -1,37 +1,54 @@
-# 🇬🇧 Data Structures in C++
+
+# Data Structures and Algorithms
 
 A project that implements various data structures in C++, with the aim of providing a simple and intuitive interface for each structure.
-
-## Implemented Data Structures
+## About
 
 This repository includes implementations of the following fundamental and common data structures:
 
 - **Heap**: Implementation of a binary heap, useful for sorting algorithms and other operations on structured data.
 - **Lists**: Singly linked list implementation.
-- **Priority Queues**: Implementation of a priority queue, used in scheduling algorithms and event management.
+- **Priority** Queues: Implementation of a priority queue, used in scheduling algorithms and event management.
 - **Set**: A data structure that manages sets of unique data, without duplicates.
 - **Vectors**: A simple implementation of dynamic arrays, with operations for access, insertion, and deletion.
 
 Each data structure includes methods for common operations like insertion, removal, search, and other operations specific to the structure.
+## Tech Stack
 
-*This repository contains the work done for the course Laboratory of Algorithms and Data Structures.*
+- C++
+- Object-Oriented Programming (OOP)
+- Generic Programming with Templates
+- Standard Template Library (STL) utilities
+- Dynamic Memory Management
+- Abstract Data Types (ADT) implementation
+## Architecture
 
----
+The project follows a hierarchical architecture based on abstraction and inheritance.
 
-# 🇮🇹 Strutture Dati in C++
+The design is organized around common interfaces and reusable components, allowing different data structures to share behavior while providing their own specialized implementations.
 
-Un progetto che implementa diverse strutture dati in C++, con l'obiettivo di fornire un'interfaccia semplice e intuitiva per ogni struttura.
+Key architectural principles include:
 
-## Strutture Dati Implementate
+- **Abstraction**: Common operations are defined through abstract interfaces.
+- **Inheritance**: Specialized data structures extend base classes when appropriate.
+- **Encapsulation**: Internal implementation details are hidden behind public methods.
+- **Generic Programming**: Templates enable data structures to operate on different data types.
+- **Modularity**: Each data structure is implemented independently, promoting maintainability and reuse.
+## Repository Structure
 
-Questo repository include le implementazioni delle seguenti strutture dati fondamentali e comuni:
+- `heap/` → Binary heap implementation and related operations.
+- `list/` → Double linked list implementation.
+- `pq/` → Priority queue implementation based on heap structures.
+- `set/` → Set implementation supporting unique elements.
+- `vector/` → Dynamic array implementation with insertion, deletion, and access operations.
+- `zlasdtest/` → Test cases used to validate the correctness of the data structures.
+- `zmytest/` → Test cases used to validate the correctness of the data structures.
+## License
 
-- **Heap**: Implementazione di un heap binario, utile per algoritmi di ordinamento e altre operazioni su dati strutturati.
-- **Liste**: Liste singolarmente concatenata.
-- **Code con Priorità**: Implementazione di una coda con priorità, utilizzata in algoritmi di scheduling e gestione di eventi.
-- **Set**: Una struttura che gestisce insiemi di dati unici, senza duplicati.
-- **Vettori**: Una semplice implementazione di array dinamici, con operazioni per accesso, inserimento ed eliminazione.
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
 
-Ogni struttura dati include metodi per operazioni comuni come l'inserimento, la rimozione, la ricerca e altre operazioni specifiche della struttura.
 
-*Questo repository contiene il lavoro svolto per l'esame Laboratorio di Algoritmi e Strutture Dati.*
+## Authors
+
+- GitHub: [@RiuHz](https://www.github.com/RiuHz)
+- GitHub: [@eman-giaquinto](https://github.com/eman-giaquinto)
